@@ -21,4 +21,6 @@ public class AppController {
         CustomException customException = new CustomException(message);
         return customException.getMessage();
     }
+
+
 }
