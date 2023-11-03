@@ -14,6 +14,7 @@ import java.util.function.Supplier;
  * Consumer = (p) -> {} take something, does not return anything <br>
  */
 @Slf4j
+@SuppressWarnings("all")
 public class SummeryFunctionalInterface {
     /**
      * A Supplier does not take anything but returns something
